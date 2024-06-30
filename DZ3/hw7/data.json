@@ -1,0 +1,19 @@
+{
+  "todos": [
+    {
+      "id": "970e",
+      "title": "Jonn",
+      "status": false
+    },
+    {
+      "id": "59f4",
+      "title": "Jack",
+      "status": false
+    },
+    {
+      "id": "d101",
+      "title": "Alice",
+      "status": false
+    }
+  ]
+}
