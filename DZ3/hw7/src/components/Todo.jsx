@@ -1,5 +1,5 @@
 import React from "react";
-
+import '../App.css'
 
 const Todo = ({ todo, deleteTodo, updateStatusTodo }) => {
   return (
@@ -9,7 +9,7 @@ const Todo = ({ todo, deleteTodo, updateStatusTodo }) => {
         checked={todo.status}
         onChange={() => updateStatusTodo(todo.id, !todo.status)}
       />
-      <span className={todo.status ? 'active' : ''}>{todo.title}</span>
+      <span className={todo.status ? 'active line-through' : ''}>{todo.title}</span>
       <button onClick={() => deleteTodo(todo.id)}>Удалить</button>
     </li>
   );
